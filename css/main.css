@@ -97,33 +97,111 @@ textarea {
 
 
 html {
-  background-color: #FFF2EA;
-  height: 100%;
+	background-color: #FFF2EA;
+    height: 100%;   
+    width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    font-family: 'Source Sans-Pro', sans-serif;
+    padding: 2em 2em; 
+	font-size: 1.2em;
+    color: #43464b;
+    height: 100%;
+}
+
+/*.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+	/*
+    font-weight: bold;  
+	*/
+}
+
+.intro {
+	font-family: 'Anton', sans-serif;
+	color: #43464b;
+	border-bottom: 3px solid #43464b;
+	margin-top: 0px;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	color: #43464b;
+	font-size: 2.5em;	
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: normal;
 }
 
 .wrapper {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 600;
+	width: 100%;
+	display: flex;
+	height: auto;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	justify-content: center;
+	padding: 20px 0px;
+	border-top: 3px solid #43464b;
+	flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
-  width: 30%; 
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  color: #000;
-  line-height: 1.5em;
-  font-size: 1em;
-  height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: #43464b;
+    line-height: 1.4em;
+    font-size: 1.1em;
+    width: 30%;
+    height: auto;
 }
+
+.div-1 p, .div-2 p { 
+    border-right: 1px solid #43464b; 
+}
+
+
+.div-1 p, .div-2 p, .div-3 p {
+	padding-right: 22px;
+}
+
+
+p span {
+    font-family: 'Anton', sans-serif; 
+    font-size: 1.3em;
+	color: #43464b;
+}
+
+footer {
+	border-top: 3px solid #43464b;
+}
+
+footer i { 
+    padding: 40px 20px 0 0;
+}
+
+footer .copyright {
+	margin-top: 15px;
+	font-size: 1.1em;
+}
+
+
+header, footer {
+    width: 100%; 
+    height: auto;
+}
+
 
 
 
